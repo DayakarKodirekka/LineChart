@@ -1,0 +1,73 @@
+#brNavChrt {
+    width: 900;
+    height: 600;
+
+}
+
+::ng-deep .line {
+    fill:none;
+    stroke: #ffab00;
+    stroke-width: 3;
+    stroke-linejoin: round;
+}
+
+#tooltip {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    background:rgb(210, 252, 176);
+    border: 0.1rem solid rgb(19, 7, 177);
+    color: rgb(6, 8, 153);
+    text-align: left;
+}
+/* #tooltip.hidden {
+    display: none;
+} */
+
+/* #tooltip {
+    padding:0.3rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    display: none;
+    background:rgb(210, 252, 176);
+    border: 0.1rem solid rgb(19, 7, 177);
+    color: rgb(6, 8, 153);
+    text-align: left;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 100;
+    white-space: pre;
+    opacity: 0.87;
+} */
+/* #group {
+    border: firebrick;
+} */
+
+
+/* ng::deep .mat-tab-label-active {
+    border-width: 9px;
+    border-style: solid;
+    border-color: orange;
+  } */
+
+/* .mat-tab-group {
+  background-color: #FFF5EE;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
